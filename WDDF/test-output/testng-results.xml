@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15" started-at="2018-03-11T22:49:15Z" finished-at="2018-03-11T22:49:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15" started-at="2018-03-11T22:49:15Z" finished-at="2018-03-11T22:49:15Z">
+      <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
+        <test-method status="FAIL" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@490ab905]" name="SuiteOneCaseTwoTest" duration-ms="0" started-at="2018-03-11T17:49:15Z" data-provider="SuiteOneCaseTwoData" finished-at="2018-03-11T17:49:15Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.stta.utility.SuiteUtility.GetTestDataUtility(SuiteUtility.java:22)
+	at com.stta.SuiteOne.SuiteOneCaseTwo.SuiteOneCaseTwoData(SuiteOneCaseTwo.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseTwoTest -->
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <test-method status="FAIL" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@6500df86]" name="SuiteTwoCaseOneTest" duration-ms="0" started-at="2018-03-11T17:49:15Z" data-provider="SuiteTwoCaseOneData" finished-at="2018-03-11T17:49:15Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.stta.utility.SuiteUtility.GetTestDataUtility(SuiteUtility.java:22)
+	at com.stta.SuiteTwo.SuiteTwoCaseOne.SuiteTwoCaseOneData(SuiteTwoCaseOne.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTwoCaseOneTest -->
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
+        <test-method status="SKIP" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f49dace]" name="checkSuiteToRun" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[SuiteOne's SuiteToRun Flag Is 'N' Or Blank. So Skipping Execution Of SuiteOne]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: SuiteOne's SuiteToRun Flag Is 'N' Or Blank. So Skipping Execution Of SuiteOne
+	at com.stta.SuiteOne.SuiteOneBase.checkSuiteToRun(SuiteOneBase.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f49dace]" name="checkCaseToRun" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@490ab905]" name="checkCaseToRun" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@6500df86]" name="checkCaseToRun" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@1e397ed7]" name="checkCaseToRun" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="FAIL" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f49dace]" name="SuiteOneCaseOneTest" duration-ms="0" started-at="2018-03-11T17:49:15Z" data-provider="SuiteOneCaseOneData" finished-at="2018-03-11T17:49:15Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.stta.utility.SuiteUtility.GetTestDataUtility(SuiteUtility.java:22)
+	at com.stta.SuiteOne.SuiteOneCaseOne.SuiteOneCaseOneData(SuiteOneCaseOne.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseOneTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f49dace]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@490ab905]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@6500df86]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@1e397ed7]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-03-11T17:49:15Z" finished-at="2018-03-11T17:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <test-method status="FAIL" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@1e397ed7]" name="SuiteTwoCaseTwoTest" duration-ms="0" started-at="2018-03-11T17:49:15Z" data-provider="SuiteTwoCaseTwoData" finished-at="2018-03-11T17:49:15Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.stta.utility.SuiteUtility.GetTestDataUtility(SuiteUtility.java:22)
+	at com.stta.SuiteTwo.SuiteTwoCaseTwo.SuiteTwoCaseTwoData(SuiteTwoCaseTwo.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTwoCaseTwoTest -->
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
